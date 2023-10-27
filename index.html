@@ -169,6 +169,8 @@ Error message and password prompt
 
 <li>$:/state/http-requests</li>
 
+<li>$:/state/image-picker/system--2023141403</li>
+
 <li>$:/state/tab-1749438307</li>
 
 <li>$:/state/tab-2065006209</li>
@@ -256,6 +258,7 @@ Error message and password prompt
 {"created":"20231004171609071","title":"$:/state/folded/$:/ControlPanel","text":"show","modified":"20231004171827686"},
 {"created":"20231004170134616","title":"$:/state/folded/GettingStarted","text":"show","modified":"20231004184857795"},
 {"title":"$:/state/http-requests","text":"0"},
+{"created":"20231027073638216","text":"hide","title":"$:/state/image-picker/system--2023141403","modified":"20231027073641520"},
 {"created":"20231004170724830","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Saving","modified":"20231005200639430"},
 {"created":"20231004170733188","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/GitHub","modified":"20231004180818385"},
 {"created":"20231007003228039","title":"$:/state/tab/moresidebar-1850697562","text":"$:/core/ui/MoreSideBar/All","modified":"20231007003250705"},
@@ -276,7 +279,7 @@ Error message and password prompt
 {"created":"20231007002735664","text":"And this.","title":"N","modified":"20231007002738072"},
 {"created":"20231005200645626","text":"Well, let's see if this works after a few days of not touching..","tags":"","title":"Ok blog number 2","modified":"20231007002338209"},
 {"created":"20231004184930263","text":"What seems to happen is that it doesn't really change the website, but it does say update finished. Weird.","tags":"GettingStarted goofaround","title":"OK let's try again.","modified":"20231007003432108"},
-{"created":"20231027063412270","text":"Let's assume we consider independant random variables that have 3 values, each have 1/3 probability.\n\nA: [1, 6, 8]\n\nB: [3, 5, 7]\n\nC: [2, 4, 9]\n\nP(A > B) = P(A=8, B=3,5,7) + P(A=6,B=3,5) = 5/9 > 0.5\n\nP(B > C) = P(B=7, C=4,2) + P(B=5, C=4,2) = 5/9 > 0.5\n\nP(C > A) = P(C=9, A=1,6,8) + P(C=4, A=1) + P(C=2, A=1) = 5/9 > 0.5","tags":"","title":"Probability Inequality doesn't have transitive property","modified":"20231027065003639"},
+{"created":"20231027063412270","text":"Let's assume we consider independant random variables that have 3 values, each have 1/3 probability.\n\nA: [1, 6, 8]\n\nB: [3, 5, 7]\n\nC: [2, 4, 9]\n\nP(A > B) = P(A=8, B=3,5,7) + P(A=6,B=3,5) = 5/9 > 0.5\n\nP(B > C) = P(B=7, C=4,2) + P(B=5, C=4,2) = 5/9 > 0.5\n\nP(C > A) = P(C=9, A=1,6,8) + P(C=4, A=1) + P(C=2, A=1) = 5/9 > 0.5\n\n\nPicture\n\nA 1====6=8=\n\nB ==3=5=7==\n\nC =2=4====9","tags":"","title":"Probability Inequality doesn't have transitive property","modified":"20231027073852200"},
 {"created":"20231004181249918","text":"Let's test this.","tags":"","title":"Setup this on github","modified":"20231004181305405"},
 {"created":"20231004185706346","text":"Now find something interesting to say here.\n\n","tags":"GettingStarted","title":"So it works!","modified":"20231004185735833"},
 {"created":"20231012020203072","text":"Working this project of NBA player analysis to automate daily fantasy NBA games. \n\nI worked on this before, which uses CPLEX to calculate the best line up based on some websites' prediction. It did pretty well and the website had pretty good predictions. Previous project turns out to be a mess to maintain, because there are multiple manual steps in the data pipeline, which makes certain experiments difficult. \n\nThe previous project also wanted to generate my own player estimation based on some ML algorithm, it was kind of a failure because the complexity pipeline increased to a degree that bigger and bigger shell script is needed to run it. It was ugly.\n\nThis time, I use bazel for the same work. The macro functionality is nice to construct re-usable pipeline logic. I also have a copy of Gurobi, which can have a better performance.\n\nIn the end, this system should \n\n# 1. Generate reasonable predictions and optimal line ups.\n# 2. Generate data dashboard for current game analysis and retro analysis.\n# 3. Cache most of the rest calls for better performance.\n","tags":"","title":"Sports Analysis","modified":"20231012021436016"},
